@@ -1,4 +1,5 @@
-#include "DIO.h"
+#include "../STD_TYPES.h"
+#include "../DIO/DIO.h"
 #include "SevSegments_config.h"
 #include "SevSegments.h"
 
@@ -27,10 +28,10 @@ void SevSegment3_Disable()
 {
 	DIO_WritePort(SEVSEGMENTS3_COMMON_PIN_PORT,1 << SEVSEGMENTS3_COMMON_PIN,STD_LOW);
 }
-void SevSegment1_DisplayNo( u8 No )
+void SevSegment1_DisplayNo( uint8 No )
 {
-	u8 DisplayOn;
-	u8 DisplayOff;
+	uint8 DisplayOn;
+	uint8 DisplayOff;
 	switch (No)
 	{
 		case 0:
@@ -81,10 +82,10 @@ void SevSegment1_DisplayNo( u8 No )
 	DIO_WritePort(SEVSEGMENTS1_ATTACHED_PORT,DisplayOn,STD_HIGH);
 	DIO_WritePort(SEVSEGMENTS1_ATTACHED_PORT,DisplayOff,STD_LOW);
 }
-void SevSegment2_DisplayNo( u8 No )
+void SevSegment2_DisplayNo( uint8 No )
 {
-	u8 DisplayOn;
-	u8 DisplayOff;
+	uint8 DisplayOn;
+	uint8 DisplayOff;
 	switch (No)
 	{
 		case 0:
@@ -135,10 +136,10 @@ void SevSegment2_DisplayNo( u8 No )
 	DIO_WritePort(SEVSEGMENTS2_ATTACHED_PORT,DisplayOn,STD_HIGH);
 	DIO_WritePort(SEVSEGMENTS2_ATTACHED_PORT,DisplayOff,STD_LOW);
 }
-void SevSegment3_DisplayNo( u8 No )
+void SevSegment3_DisplayNo( uint8 No )
 {
-	u8 DisplayOn;
-	u8 DisplayOff;
+	uint8 DisplayOn;
+	uint8 DisplayOff;
 	switch (No)
 	{
 		case 0:
