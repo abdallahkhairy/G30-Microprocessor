@@ -1,7 +1,7 @@
 
 
 
-void DIO_FlipPort ( u8 port_index , u8 pins_mask )
+void DIO_FlipPort ( uint8 port_index , uint8 pins_mask )
 {
 	switch(port_index)
 	{
