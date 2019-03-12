@@ -1,5 +1,5 @@
 
-  Dio_LevelType IncVal = STD_HIGH;
+        Dio_LevelType IncVal = STD_HIGH;
 	Dio_LevelType CurrentDecVal = STD_HIGH,PrevDecVal = STD_HIGH; 
 	Dio_LevelType Reset = STD_HIGH;
 	while(1)
