@@ -10,40 +10,39 @@ void Port_SetPinPullUp(uint8 port_index , uint8 pins_mask , uint8 enable){
 	{
 		case PORTA:
 			if(enable)
-				GPIO_PORTA_PDR_R |= pins_mask;
+				GPIO_PORTA_PUR_R |= pins_mask;
 			else 
-				GPIO_PORTA_PDR_R &= ~pins_mask;
+				GPIO_PORTA_PUR_R &= ~pins_mask;
 			break;
 		case PORTB:
 			if(enable)
-				GPIO_PORTB_PDR_R |= pins_mask;
+				GPIO_PORTB_PUR_R |= pins_mask;
 			else 
-				GPIO_PORTB_PDR_R &= ~pins_mask;
+				GPIO_PORTB_PUR_R &= ~pins_mask;
 			break;
 		case PORTC:
 			if(enable)
-				GPIO_PORTC_PDR_R |= pins_mask;
+				GPIO_PORTC_PUR_R |= pins_mask;
 			else 
-				GPIO_PORTC_PDR_R &= ~pins_mask;
+				GPIO_PORTC_PUR_R &= ~pins_mask;
 			break;		
 		case PORTD:
 			if(enable)
-				GPIO_PORTD_PDR_R |= pins_mask;
+				GPIO_PORTD_PUR_R |= pins_mask;
 			else 
-				GPIO_PORTD_PDR_R &= ~pins_mask;
+				GPIO_PORTD_PUR_R &= ~pins_mask;
 			break;		
-		
 		case PORTE:
 			if(enable)
-				GPIO_PORTE_PDR_R |= pins_mask;
+				GPIO_PORTE_PUR_R |= pins_mask;
 			else 
-				GPIO_PORTE_PDR_R &= ~pins_mask;
+				GPIO_PORTE_PUR_R &= ~pins_mask;
 			break;		
 		case PORTF:
 			if(enable)
-				GPIO_PORTF_PDR_R |= pins_mask;
+				GPIO_PORTF_PUR_R |= pins_mask;
 			else 
-				GPIO_PORTF_PDR_R &= ~pins_mask;
+				GPIO_PORTF_PUR_R &= ~pins_mask;
 			break;		
 	} 
 }
