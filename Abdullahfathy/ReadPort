@@ -1,0 +1,30 @@
+
+uint8 DIO_ReadPort(uint8 port_index,pins_mask){
+	uint8 pins_level;
+switch(port_index)
+ {
+	case GPIO_PORT_A :
+	             return ((GIPO_PORTA_DATA_R >> pins_mask) &0X01 ) ;
+	             break;
+	case  GPIO_PORT_B :
+	        	
+	        	  return ((GIPO_PORTB_DATA_R >> pins_mask) &0X01 ) ;
+	        	  break;
+	case  GPIO_PORT_C :
+	        	
+	         return ((GIPO_PORTC_DATA_R >> pins_mask) &0X01 ) ;
+	        	break;
+	case  GPIO_PORT_D :
+	        	
+	        	 return ((GIPO_PORTD_DATA_R >> pins_mask) &0X01 ) ;
+	        	break;
+	case  GPIO_PORT_E :
+	        	
+	        	 return ((GIPO_PORTE_DATA_R >> pins_mask) &0X01 );
+	        	break;					
+	case  GPIO_PORT_F :
+	        	
+	        	 return ((GIPO_PORTF_DATA_R>> pins_mask) &0X01 ) ;
+	        	break;					
+ }
+}
