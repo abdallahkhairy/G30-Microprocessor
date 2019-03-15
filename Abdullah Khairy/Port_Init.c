@@ -22,14 +22,6 @@ void PortInit(uint8 port_index ){
 			GPIO_PORTB_PCTL_R =0;
 			GPIO_PORTB_AMSEL_R =0;	
 			break;
-		case GPIO_PORTD :
-			GPIO_PORTD_LOCK_R = GPIO_LOCK_KEY;
-			GPIO_PORTD_CR_R =0XFF;
-			GPIO_PORTD_DEN_R |=0XFF;
-			GPIO_PORTD_AFSEL_R =0;
-			GPIO_PORTD_PCTL_R =0;
-			GPIO_PORTD_AMSEL_R =0;	
-			break;
 		case GPIO_PORTC :
 			GPIO_PORTC_LOCK_R = GPIO_LOCK_KEY;
 			GPIO_PORTC_CR_R =0XFF;
@@ -37,6 +29,14 @@ void PortInit(uint8 port_index ){
 			GPIO_PORTC_AFSEL_R =0;
 			GPIO_PORTC_PCTL_R =0;
 			GPIO_PORTC_AMSEL_R =0;	
+			break;
+		case GPIO_PORTD :
+			GPIO_PORTD_LOCK_R = GPIO_LOCK_KEY;
+			GPIO_PORTD_CR_R =0XFF;
+			GPIO_PORTD_DEN_R |=0XFF;
+			GPIO_PORTD_AFSEL_R =0;
+			GPIO_PORTD_PCTL_R =0;
+			GPIO_PORTD_AMSEL_R =0;	
 			break;
 		case GPIO_PORTE :
 			GPIO_PORTE_LOCK_R = GPIO_LOCK_KEY;
