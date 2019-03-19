@@ -9,5 +9,6 @@ void Port_SetPinPullUp(uint8 port_index , uint8 pins_mask , uint8 enable);
 void lcd_DisplayOn(void);
 // Wake Up The LCD 
 void lcd_FunctionReset(void)
- // back it to the defult setting
+ // Back it To The Defult Setting
+ /********************* Abdullah Khairy***************************/
 
