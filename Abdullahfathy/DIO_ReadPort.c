@@ -10,7 +10,7 @@ switch(port_index)
 	        	  break;
 	case  GPIO_PORTC :
 	        	
-				  return GIPO_PORTC_DATA_R & pins_mask ;
+			return GIPO_PORTC_DATA_R & pins_mask ;
 	        	break;
 	case  GPIO_PORTD :
 	        	
