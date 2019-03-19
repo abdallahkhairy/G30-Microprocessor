@@ -36,4 +36,12 @@ void LCD_INIT(void) // to initilze LCD we need to send it specific commands
 void LCD_CLR(void) // to clear lcd  
 void LCD_CMD(uint8 cmd) // to send command to LCD
  /********************* Abdullah shaker ****************************/
+ 
+ 
+ 
+  /********************* Abdullah Emad ****************************/
+
+ 
+ 
+ /********************* Abdullah Emad ****************************/
 
