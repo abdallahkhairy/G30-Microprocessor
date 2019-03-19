@@ -57,17 +57,5 @@ void lcd_Entrymode(void);// to be able to write on lcd
  /********************* Abdullah Fathy ****************************/
  
  
- 
-  /********************* Abdullah Emad ****************************/
-void lcd_FunctionSet8bit(void);
 
-void LCDcommand(uint8 cmd);
-
-void LCD_Init();
-
-void DIO_WritePort(unit8 port_index,unit8 pins_mask, Dio_LevelType pins_level);
-
-void Port_SetPinDirection(unit8 port_index, unit8 pins_mask, Port_PinDirectionType pins_direction);
-
- /********************* Abdullah Emad ****************************/
 
