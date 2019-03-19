@@ -23,11 +23,11 @@ void LCD_Home(); /* when the new character is not visible on the display immedia
 one of the funtions lcd.home()or lcd.setCursor()after the character creation. */
 void LCD_writeString(u8 *ptr, u8 xpos, u8 ypos); // to write words on the lcd
 void CounterTO999(void); // the application of counter by first method 
- /******************** Abdelrahman Al-Wali ***************************/
+ /******************** Abdelrahman Al-Wali *************************/
   
 
 
- /********************* Abdullah shaker ***************************/
+ /********************* Abdullah shaker ****************************/
 void LCD_set_cursor(uint8 xpos, uint8 ypos) // that move the cursor to specific position 
 void LCD_DATA(u8 data) // that send data to show it in LCD 
 void Port_SetPinPullDown ( uint8 port_index , uint8 pins_mask , uint8 enable ) 
@@ -35,5 +35,5 @@ void Port_SetPinPullDown ( uint8 port_index , uint8 pins_mask , uint8 enable )
 void LCD_INIT(void) // to initilze LCD we need to send it specific commands
 void LCD_CLR(void) // to clear lcd  
 void LCD_CMD(uint8 cmd) // to send command to LCD
- /********************* Abdullah shaker ***************************/
+ /********************* Abdullah shaker ****************************/
 
