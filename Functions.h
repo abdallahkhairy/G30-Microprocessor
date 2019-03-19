@@ -26,6 +26,19 @@ void CounterTO999(void); // the application of counter by first method
  /******************** Abdelrahman Al-Wali *************************/
  /*
 
+  /********************* Abdullah Emad ****************************/
+void lcd_FunctionSet8bit(void);
+
+void LCDcommand(uint8 cmd);
+
+void LCD_Init();
+
+void DIO_WritePort(unit8 port_index,unit8 pins_mask, Dio_LevelType pins_level);
+
+void Port_SetPinDirection(unit8 port_index, unit8 pins_mask, Port_PinDirectionType pins_direction);
+
+ /********************* Abdullah Emad ****************************/
+
  /********************* Abdullah shaker ****************************/
 void LCD_set_cursor(uint8 xpos, uint8 ypos) // that move the cursor to specific position 
 void LCD_DATA(u8 data) // that send data to show it in LCD 
@@ -49,8 +62,15 @@ void lcd_Entrymode(void)// to be able to write on lcd
  
  
   /********************* Abdullah Emad ****************************/
+void lcd_FunctionSet8bit(void);
 
- 
- 
+void LCDcommand(uint8 cmd);
+
+void LCD_Init();
+
+void DIO_WritePort(unit8 port_index,unit8 pins_mask, Dio_LevelType pins_level);
+
+void Port_SetPinDirection(unit8 port_index, unit8 pins_mask, Port_PinDirectionType pins_direction);
+
  /********************* Abdullah Emad ****************************/
 
