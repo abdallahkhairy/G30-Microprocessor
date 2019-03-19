@@ -1,4 +1,4 @@
-void lcd_FunctionRese(void)
+void lcd_FunctionReset(void)
 {  /*RS*/
 	DIO_vidSetpinVAL(LCD_RSPort ,LCD_RSpin,HIGH);
 	 /*RW*/
