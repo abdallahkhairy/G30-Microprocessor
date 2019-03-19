@@ -1,10 +1,13 @@
 void lcd_FunctionSet8bit(void)
-{  /*RS*/
-	DIO_vidSetpinVAL(LCD_RSPort ,LCD_RSpin,HIGH);
+{
+	 /*RS*/
+	DIO_vidSetpinVAL(LCD_CONTROL_PINS_PORT,RS,STD_HIGH);
 	 /*RW*/
-	DIO_vidSetpinVAL(LCD_RwPort,LCD_Rwpin,LOW);
-	DIO_vidSetPortVAL(LCD_DATAPort,0x38);
-	DIO_vidSetpinVAL(LCD_EPort,LCD_Epin, HIGH);
+	DIO_vidSetpinVAL(LCD_CONTROL_PINS_PORT,RW,STD_LOW);
+
+	DIO_vidSetPortVAL(LCD_PORT,0x38);
+	/*E*/
+	DIO_vidSetpinVAL((LCD_CONTROL_PINS_PORT,E,STD_LOW);
 		_delay_ms(10);
-	DIO_vidSetpinVAL(LCD_EPort,LCD_Epin, LOW);
+	DIO_vidSetpinVAL(LCD_CONTROL_PINS_PORT,E,STD_LOW);
 }
