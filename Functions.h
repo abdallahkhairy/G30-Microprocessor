@@ -29,7 +29,7 @@ void LCD_set_cursor(uint8 xpos, uint8 ypos) // that move the cursor to specific 
 void LCD_DATA(u8 data) // that send data to show it in LCD 
 void Port_SetPinPullDown ( uint8 port_index , uint8 pins_mask , uint8 enable ) // to config the pulldown mode on the pins selected
 void LCD_INIT(void) // to initilze LCD we need to send it specific commands
-void LCD_CLR(void) // to clear lcd 
+void LCD_CLR(void) // to clear lcd  
 void LCD_CMD(uint8 cmd) // to send command to LCD
 
 
