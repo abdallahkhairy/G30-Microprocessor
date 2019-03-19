@@ -9,11 +9,11 @@ void lcd_DisplayOn(void);// Wake Up The LCD
 void Delay_Us(uint32_t Num); // to make some delay in milliseconds but it not very accurate
 void lcd_FunctionReset(void);// Back it To The Defult Setting
 void LCD_excute(uint8 u8ValueCpy); // Prints at Screen
-/********************* Abdullah Khairy ****************************/
+ /********************* Abdullah Khairy ***************************/
  
  
 /********************* Abdelrahman Al-Wali ************************/
-void DIO_FlipPort ( uint8 port_index , uint8 pins_mask ); // to Toggle selected pins depend on mask recqieved
+void DIO_FlipPort ( uint8 port_index , uint8 pins_mask ); // to Toggle selected pins depend on mask receieved
 void SevSegment1_DisplayNo( uint8 No ); // to display certain number on seven segment 1
 void SevSegment2_DisplayNo( uint8 No ); // to display certain number on seven segment 2
 void SevSegment3_DisplayNo( uint8 No ); // to display certain number on seven segment 3
@@ -24,8 +24,7 @@ one of the funtions lcd.home()or lcd.setCursor()after the character creation. */
 void LCD_writeString(u8 *ptr, u8 xpos, u8 ypos); // to write words on the lcd
 void CounterTO999(void); // the application of counter by first method 
  /******************** Abdelrahman Al-Wali *************************/
-  
-
+ /*
 
  /********************* Abdullah shaker ****************************/
 void LCD_set_cursor(uint8 xpos, uint8 ypos) // that move the cursor to specific position 
@@ -36,6 +35,16 @@ void LCD_INIT(void) // to initilze LCD we need to send it specific commands
 void LCD_CLR(void) // to clear lcd  
 void LCD_CMD(uint8 cmd) // to send command to LCD
  /********************* Abdullah shaker ****************************/
+ 
+ 
+   /********************* Abdullah Fathy ****************************/
+uint8 DIO_ReadPort(uint8 port_index,pins_mask)//to read the the iput signal of selected pins of a specific port  denpends on mask received
+ 
+ void lcd_DisplayOff(void)//to turn off lcd
+ 
+void lcd_Entrymode(void)// to be able to write on lcd 
+ 
+ /********************* Abdullah Fathy ****************************/
  
  
  
