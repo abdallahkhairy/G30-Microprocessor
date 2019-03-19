@@ -2,7 +2,8 @@
 typedef unsigned int uint32_t; // Using uint32_t Instead Of int
 typedef unsigned char uint8; // Using uint8 Instead Of char
 void PortInit(uint8 port_index );// To Initlize The Selected Port By Enabling The clk And make It Digital And Unlock it
-void Port_SetPinPullUp(uint8 port_index , uint8 pins_mask , uint8 enable);// To Make an Intrnal Resistance to Make it High When no Press and Low When Press
+void Port_SetPinPullUp(uint8 port_index , uint8 pins_mask , uint8 enable);
+// To Make an Intrnal Resistance to Make it High When no Press and Low When Press
 #include"Switches.h"// switches driver
 void lcd_DisplayOn(void);// Wake Up The LCD
 void Delay_Us(uint32_t Num); // to make some delay in milliseconds but it not very accurate
