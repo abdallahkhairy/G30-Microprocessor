@@ -17,6 +17,6 @@ The operation mode of push buttons:
 3. Reset     : On release event
 
 
-The concept of this system can be used in many applications.For example, it can be used to count number of peoplein queue if we replace 
+The concept of this system can be used in many applications.For example, it can be used to count number of peoplein queue if we replace .
 the increment and decrement push buttons with two photo interrupters and based on the number of people in the queue estimate the waiting 
 time fora new person who is going to stand in the queue.
