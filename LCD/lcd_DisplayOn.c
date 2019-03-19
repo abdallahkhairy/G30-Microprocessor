@@ -2,9 +2,9 @@ void lcd_DisplayOn(void)
 
 {
 	 /*RS*/
-	DIO_vidSetpinVAL(LCD_RSPort ,LCD_RSpin,LOW);
+	DIO_vidSetpinVAL(LCD_CONTROL_PINS_PORT,RS,STD_LOW);
 	 /*RW*/
-	DIO_vidSetpinVAL(LCD_RwPort,LCD_Rwpin,LOW);
+	DIO_vidSetpinVAL(LCD_CONTROL_PINS_PORT,RW,STD_LOW);
 
 	DIO_vidSetPortVAL(LCD_DATAPort,0x0C);
 	/*E*/
