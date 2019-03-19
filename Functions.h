@@ -9,7 +9,7 @@ void lcd_DisplayOn(void);// Wake Up The LCD
 void Delay_Us(uint32_t Num); // to make some delay in milliseconds but it not very accurate
 void lcd_FunctionReset(void);// Back it To The Defult Setting
 void LCD_excute(uint8 u8ValueCpy); // Prints at Screen
- /********************* Abdullah Khairy ***************************/
+/********************* Abdullah Khairy ****************************/
  
  
 /********************* Abdelrahman Al-Wali ************************/
