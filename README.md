@@ -1,6 +1,6 @@
 # G30-Microprocessor
 
-                                                    "COUNTER FROM 0 TO 999"
+                                       "COUNTER FROM 0 TO 999"
 
 The counter system main components are:
 
