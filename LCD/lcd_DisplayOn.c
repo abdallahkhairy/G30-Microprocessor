@@ -1,5 +1,4 @@
 void lcd_DisplayOn(void)
-
 {
 	 /*RS*/
 	DIO_vidSetpinVAL(LCD_CONTROL_PINS_PORT,RS,STD_HIGH);
