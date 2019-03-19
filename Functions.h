@@ -1,4 +1,4 @@
-/*****************************************************************/
+/************************ Abdullah Khairy ************************/
 typedef unsigned int uint32_t;
 typedef unsigned char uint8;
 void PortInit(uint8 port_index );
@@ -15,7 +15,7 @@ void lcd_FunctionReset(void)
  /********************* Abdullah Khairy ***************************/
  
  
-/*****************************************************************/
+/********************* Abdelrahman Al-Wali ************************/
 void DIO_FlipPort ( uint8 port_index , uint8 pins_mask ); // to Toggle selected pins depend on mask recqieved
 void SevSegment1_DisplayNo( uint8 No ); // to display certain number on seven segment 1
 void SevSegment2_DisplayNo( uint8 No ); // to display certain number on seven segment 2
@@ -25,5 +25,5 @@ void LCD_clear(); // to clear lcd
 void LCD_Home(); // when the new character is not visible on the display immediately. The user must call, one of the funtions lcd.home()or lcd.setCursor()after the character creation.
 void LCD_writeString(u8 *ptr, u8 xpos, u8 ypos); // to write words on the lcd
 void CounterTO999(void); // the application of counter by first method 
- /*********************Abdelrahman Al-Wali ***************************/
+ /******************** Abdelrahman Al-Wali ***************************/
 
