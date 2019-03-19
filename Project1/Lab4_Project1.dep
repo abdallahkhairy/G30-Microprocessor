@@ -1,0 +1,41 @@
+Dependencies for Project 'Lab4', Target 'Project1': (DO NOT MODIFY !)
+F (.\main.c)(0x5C8FBE2F)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (APP.h)(0x5C8D292A)
+F (.\startup.s)(0x57018D78)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (..\Project1\APP.h)(0x5C8D292A)()
+F (..\Project1\CounterTO999.c)(0x5C91005E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\counterto999.o --omf_browse .\counterto999.crf --depend .\counterto999.d)
+I (..\Project1\STD_TYPES.h)(0x5C86BA78)
+I (..\Project1\APP.h)(0x5C8D292A)
+I (..\Project1\DIO.h)(0x5C8D9499)
+I (..\Project1\LCD.h)(0x5C90F686)
+I (..\Project1\Delay.h)(0x5C90F142)
+F (..\Project1\Delay.c)(0x5C90F143)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (..\Project1\STD_TYPES.h)(0x5C86BA78)
+I (..\Project1\Delay.h)(0x5C90F142)
+F (..\Project1\Delay.h)(0x5C90F142)()
+F (..\Project1\DIO.c)(0x5C90F415)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\dio.o --omf_browse .\dio.crf --depend .\dio.d)
+I (..\Project1\tm4c123gh6pm.h)(0x5C79AC9E)
+I (..\Project1\STD_TYPES.h)(0x5C86BA78)
+I (..\Project1\DIO.h)(0x5C8D9499)
+I (..\Project1\DIO_Reg.h)(0x5C8D97F8)
+F (..\Project1\DIO.h)(0x5C8D9499)()
+F (..\Project1\DIO_Reg.h)(0x5C8D97F8)()
+F (..\Project1\LCD.c)(0x5C90F75E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (..\Project1\STD_TYPES.h)(0x5C86BA78)
+I (..\Project1\DIO.h)(0x5C8D9499)
+I (..\Project1\LCD.h)(0x5C90F686)
+I (..\Project1\LCD_Config.h)(0x5C90F532)
+I (..\Project1\DIO_Reg.h)(0x5C8D97F8)
+I (..\Project1\Delay.h)(0x5C90F142)
+F (..\Project1\LCD.h)(0x5C90F686)()
+F (..\Project1\LCD_Config.h)(0x5C90F532)()
+F (..\Project1\SevSegments.c)(0x5C90FFDB)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\sevsegments.o --omf_browse .\sevsegments.crf --depend .\sevsegments.d)
+I (..\Project1\STD_TYPES.h)(0x5C86BA78)
+I (..\Project1\DIO.h)(0x5C8D9499)
+I (..\Project1\SevSegments.h)(0x5C8D4288)
+I (..\Project1\SevSegments_config.h)(0x5C8D4BE5)
+F (..\Project1\SevSegments.h)(0x5C8D4288)()
+F (..\Project1\SevSegments_Config.h)(0x5C8D4BE5)()
+F (..\Project1\STD_TYPES.h)(0x5C86BA78)()
+F (..\Project1\TExaS.h)(0x56994EF4)()
+F (.\tm4c123gh6pm.h)(0x5C79AC9E)()

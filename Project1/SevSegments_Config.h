@@ -1,0 +1,35 @@
+#ifndef SEVSEGMENTS_CONFIG_H_
+#define SEVSEGMENTS_CONFIG_H_
+
+
+/*
+*	Choose PortNo for SevSegment 1,2,3
+*/
+#define SEVSEGMENTS1_PORT					GPIO_PORTB
+#define SEVSEGMENTS2_PORT					GPIO_PORTB
+#define SEVSEGMENTS3_PORT					GPIO_PORTA
+
+/*
+*	Choose PinNo for SevSegment 1,2,3
+*/
+
+#define SEVSEGMENTS1_PIN_A			PIN_0
+#define SEVSEGMENTS1_PIN_B			PIN_1
+#define SEVSEGMENTS1_PIN_C			PIN_2
+#define SEVSEGMENTS1_PIN_D			PIN_3
+
+
+#define SEVSEGMENTS2_PIN_A			PIN_4
+#define SEVSEGMENTS2_PIN_B			PIN_5
+#define SEVSEGMENTS2_PIN_C			PIN_6
+#define SEVSEGMENTS2_PIN_D			PIN_7
+
+
+
+#define SEVSEGMENTS3_PIN_A			PIN_2
+#define SEVSEGMENTS3_PIN_B			PIN_3
+#define SEVSEGMENTS3_PIN_C			PIN_4
+#define SEVSEGMENTS3_PIN_D			PIN_5
+
+
+#endif /* SEVSEGMENTS_CONFIG_H_ */
