@@ -23,3 +23,10 @@ void LCD_writeString(u8 *ptr, u8 xpos, u8 ypos); // to write words on the lcd
 void CounterTO999(void); // the application of counter by first method 
  /******************** Abdelrahman Al-Wali ***************************/
 
+/************************ abdallah fathy **************************/
+ uint8 DIO_ReadPort(uint8 port_index,pins_mask) // to read the input from selected pins in a port depend on mask recqieved
+ void lcd_DisplayOff(void);// turn off The LCD
+void lcd_Entrymode(void);//to be ready to write on lcd 
+/************************ abdallah fathy ***************************/
+
+
